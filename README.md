@@ -13,5 +13,6 @@ Usage
 Clone the repo
 Install requirements
 Prepare your dataset (format: YOLO)
+
 Train:
 python train.py --data your_dataset.yaml --cfg your_model.yaml
