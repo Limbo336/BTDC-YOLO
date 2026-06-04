@@ -9,7 +9,9 @@ Requirements
 - CUDA 12.8 (recommended)
 - Ultralytics 8.3.63
 
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
+Usage
+Clone the repo
+Install requirements
+Prepare your dataset (format: YOLO)
+Train:
+python train.py --data your_dataset.yaml --cfg your_model.yaml
